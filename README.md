@@ -10,7 +10,7 @@ This is a simple Python program that displays a graphical user interface (GUI) u
 ## Installation
 
 1. Install PySimpleGUI by running the following command: `pip install PySimpleGUI`
-2. Clone the git-repository to a folder of your choice.
+2. Clone the git-repository to a folder of your choice. https://github.com/Siiha/dice
 ## Usage
 1. Navigate to the directory of your choice on the command line.
 2. Run the script using the following command: `python dice.py
