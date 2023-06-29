@@ -10,7 +10,6 @@ window = sg.Window('Dice', layout, finalize=True)
 picture = graph.draw_image(filename=f"inverted-dice-{dice()}.png",location=(0, 512))
 while True:
    event, values = window.read()
-   print(event)
    if event == 'roll':
 	   window["dice"].delete_figure(picture)
 	   picture = graph.draw_image(filename=f"inverted-dice-{dice()}.png",location=(0, 512))
